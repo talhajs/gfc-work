@@ -1,0 +1,34 @@
+#navigation {
+word-spacing: 20px;
+padding-left: 10px;
+
+}
+
+a {
+word-spacing: 0px;
+}
+
+a:visited{
+color: green;
+}
+
+a:hover{
+font-weight: bold;
+}
+
+a:active{
+text-decoration-line: none;
+}
+
+#footer {
+text-align: center;
+}
+
+#title {
+font-family: 'Lucida Handwriting';
+text-align: center;
+}
+
+#main{
+
+}

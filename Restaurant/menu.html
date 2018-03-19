@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Menu</title>
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<style>
+		#main{
+		background-color: #c2c2d6;
+		}
+		.column{
+		float: left;
+		width: 33.33%;
+		text-align: center;
+		}
+		.row:after {
+		content: "";
+		display: table;
+		clear: both;
+		}
+		#main li:first-child {
+		font-size: 150%;
+		font-weight: bold;
+		}
+		.item{
+		padding: 20px 5px;
+		}
+		
+		#main th{
+		text-align: left;
+		}
+		
+		#main td, th {
+		height: 40px;
+		}
+		
+		#drinks {
+			width: 500px;		
+			margin-left: auto;
+			margin-right: auto;
+			border-collapse: collapse;
+			border: 2px solid #c2c2d6;	
+			
+		}
+		tr:nth-child(odd) {background-color: white;}
+		
+		th, td {
+		padding-left: 10px;
+		}
+		
+		</style>
+	</head>
+	
+	<body>	
+		<div id="title">
+			<h1>Chef T's Cafe</h1>
+		</div>
+		
+		
+		<div id="navigation">
+		<hr />
+		<ul class="nav nav-pills nav-center">	
+			<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+			<li class="active"><a href="menu.html">Menu</a></li>
+			<li><a href="contactUs.html">Contact Us</a></li>
+		</ul>
+		<hr />
+		</div>
+		
+	
+
+		
+		<div id="main">
+			<div class="row">
+				<div class="column"></div>
+				<div class="column"></div>
+				<div class="column"></div>
+			</div>
+				
+			<ul style="list-style-type:none">
+				
+				<div class="row">
+				<div class="column">
+				
+				<div class="item">
+				<li>Omlette + Potatoes</li>
+				<li>choice of 6 veggies / meats</li>
+				<li>hash browns</li>
+				<li>toast and butter</li>
+				<li>$10</li>
+				</div>
+				
+				<div class="item">
+				<li>French croissant</li>
+				<li>special cream filling</li>
+				<li>side of fruit platter</li>
+				<li>served with canadian maple syrup</li>
+				<li>$12</li>
+				</div>
+				</div>
+				
+				
+				<div class="column">
+				<div class="item">
+				<li>Southern Fried Chicken</li>
+				<li>cage free buttermilk fried half chicken</li>
+				<li>house salad or mashed potatoes</li>
+				<li>mac & cheese</li>
+				<li>$16</li>
+				</div>
+				<div class="item">
+				<li>Burger + Fries</li>
+				<li>fresh local 20oz beef patty with american cheese</li>
+				<li>lettuce, onions, pickles, tomato, special sauce</li>
+				<li>rustic waffle potatoes fries</li>
+				<li>$12</li>
+				</div>
+				</div>
+				
+				
+				
+				<div class="column">
+				
+				<div class="item">
+				<li>Shark Tacos</li>
+				<li>house batter fried</li>
+				<li>frehly made soft tortillas</li>
+				<li>lettuce, pico de gallo salsa, avocado, house sauce</li>
+				<li>$18</li>
+				</div>
+				<div class="item">
+				<li>Chicken Tinga Burrito</li>
+				<li>slow cooked spicy marinated</li>
+				<li>side of beans and rice</li>
+				<li>served with lettuce & pico de gallo salsa</li>
+				<li>$14</li>
+				</div>
+				</div>
+				
+				</div>
+			</ul>
+			
+			<table id="drinks">
+				<tr>
+					<th colspan="2">Beverages</th>
+				</tr>
+				<tr>
+					<td>Fresh juice</td>
+					<td>&#36;4</td>
+				</tr>
+				<tr>
+					<td>Bottled Water</td>
+					<td>&#36;2</td>
+				</tr>
+				<tr>
+					<td>Lemonade</td>
+					<td>&#36;3</td>
+				</tr>
+				<tr>
+					<td>Smoothie</td>
+					<td>&#36;6</td>
+				</tr>
+				<tr>
+					<td>Cappuccino</td>
+					<td>&#36;5</td>
+				</tr>
+				<tr>
+					<td>Tea</td>
+					<td>&#36;3</td>
+				</tr>
+			</table>
+			
+		</div>
+
+		<div id="footer">
+			<hr />
+			<p>100 1st Street, Chicago, IL, 60601</p>
+			<p>Phone #: 405-555-7000</p>
+		</div>
+		
+	</body>
+	
+</html>
